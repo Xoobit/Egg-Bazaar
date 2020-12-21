@@ -1,0 +1,12 @@
+BODY {
+    background-color: #fffaa0;
+    font-family: 'Playfair Display', serif;
+}
+
+H1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+TD {
+    border-bottom: 1px solid black; /* Линия снизу */
+}
