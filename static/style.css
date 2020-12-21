@@ -9,4 +9,22 @@ H1 {
 
 TD {
     border-bottom: 1px solid black; /* Линия снизу */
+    border-right: 2px solid black;
+}
+
+footer {
+    text-align: right;
+}
+
+
+.Date {
+    color: rgb(61, 30, 197);
+}
+
+.Source {
+    color: rgb(61, 30, 197);
+}
+
+.Type {
+    color: rgb(61, 30, 197);
 }

@@ -19,7 +19,8 @@ function file2table() {
 
 //Преобразуем строку текста в таблицу(массив объект-строчек)
 function txt2log(txt) {
-    let logTable = '<table id="log"><tbody>'
+    let logTable = '<table id="log"><tbody>' + 
+    '<tr><th>Date</th><th>Type</th><th>Source</th><th>Content</th></tr>'
     //разделяем все строчки в массив по \n
     const rows = txt.split("\n")
     rows.forEach(row => {
